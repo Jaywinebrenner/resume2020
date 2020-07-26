@@ -1,5 +1,29 @@
-$(function() {
+// PARALAX EFFECT
 
+// Make sure section has a tall background image. give the section the following:   
+
+<section id="hero" data-type="background" data-speed="5">
+  <h1>STUFF</h1>
+</section>
+
+///CSS - repeat fixed is VERY important
+
+#hero {
+	background: url('../img/hero-bg.jpg') 50% 0 repeat fixed;
+	min-height: 500px;
+	position: relative;
+	display: table;
+	width: 100%;
+	padding: 40px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+// Javascript
+
+$(function() {
+	
 	// Cache the Window object
 	var $window = $(window);
 	

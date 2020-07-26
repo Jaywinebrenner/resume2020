@@ -23,7 +23,6 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
 	font-size: 3em;
-
 }
 
 h1,h2 {
@@ -38,6 +37,12 @@ h4 {
 	font-size:18px;
 }
 
+button, input, .btn, a.btn {
+		-webkit-font-smoothing: antialiased;
+	text-rendering:  optimizelegibility;
+	color: white; 
+}
+
 .btn {
 	font-weight: bold;
 }
@@ -45,6 +50,10 @@ h4 {
 .btn-danger {
 	background-color: #dd5638;
 	border-collapse: #d95131;
+}
+
+img {
+	max-width: 100%;
 }
 
 /* 
@@ -117,4 +126,126 @@ HERO */
 	color: white;
 	font-weight: bold;
 	display: block;
+}
+
+
+/* LAYOUT*/
+
+section {
+	padding: 80px 0;
+}
+
+.section-header {
+	text-align: center;
+}
+
+section h2 {
+	margin: 20px 0 40px;
+}
+
+section h3 {
+	margin: 30px 0 10px;
+}
+
+#optin {
+	background: #3e4249;
+	padding: 20px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-size: 1.2em;
+}
+
+#optin p {
+	margin: 7px 0 0 0;
+}
+
+#who-benefits {
+	background: white;
+}
+
+#course-features {
+	background: #3e4249;
+	text-align: center;
+	color: white;
+}
+
+
+/* CUSTOM ICON SPRITES */
+
+i.ci {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background: url('../img/icon-sprite.png') no-repeat;
+}
+
+.ci.ci-computer 	{ background-position: 0 0; }
+.ci.ci-watch		{ background-position: -40px 0; }
+.ci.ci-calendar		{ background-position: -80px 0; }
+.ci.ci-community	{ background-position: -120px 0; }
+.ci.ci-instructor	{ background-position: -160px 0; }
+.ci.ci-device		{ background-position: -200px 0; }
+
+
+/* PROJECT FEATURES */
+
+#project-features {
+	text-align: center;
+}
+
+.test {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+}
+
+.testTwo {
+	width: 50px;
+	height: 50px;
+	background-color: green;
+}
+
+#featurette {
+	background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+
+
+#instructor {
+	background: white url('../img/brad-elvis.png') 90% -10px no-repeat;
+}
+
+#instructor h2 {
+	margin: 0 0 20px;
+}
+
+#instructor .num {
+	display: table;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	line-height: 24px;
+	height: 140px;
+	width: 140px;
+	text-align: center;
+	background: #dd5638;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+#instructor .num .num-content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#instructor .num span {
+	display: block;
+	font-size: 20px;
+	font-weight: normal;
 }
