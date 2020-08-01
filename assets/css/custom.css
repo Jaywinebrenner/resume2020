@@ -459,10 +459,9 @@ section.main-content {
 
 #signup {
 	text-align: center;
-	background: url('../img/award10.jpg');
-	  background-size: 100% 100%;
-	/* background: url('../img/awards8.png');  */
-	background-size: cover;
+	/* background: url('../img/ocean10.jpg') no-repeat fixed center; */
+	background: url('../img/ocean10.jpg') ;
+ background-position: center;
 	color: white; 
 	padding: 50px 0;
 }
