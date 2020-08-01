@@ -246,8 +246,9 @@ form textarea {
 /* ==== HERO ==== */
 
 #hero {
-	/* background: url('../img/city5.jpg') 50% 0 repeat fixed; */
-		background: url('../img/award7.jpg') no-repeat fixed center;
+
+		background: url('../img/award10.jpg') no-repeat fixed center;
+			/* background: url('../img/award6.jpg') 50% 50% repeat fixed; */
 	min-height: 500px;
 	position: relative;
 	display: table;
@@ -688,7 +689,15 @@ footer li.signup-link a:hover {
 		width: 48%;
 		margin-right: 2%;
 	}
+	.location {
+		font-size: 5px;
+	}
+	.email {
+		font-size: 10px;
+	}
 }
+
+
 
 @media screen and (max-width : 568px) {
 	#instructor .num {
@@ -767,6 +776,7 @@ text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 
 .jay-header {
 	margin-bottom: 0;
+	 text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .jay-body {
@@ -776,4 +786,8 @@ text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 
 .custom-icons {
 	margin-bottom: 70px;
+}
+
+.location {
+	color: white;
 }
