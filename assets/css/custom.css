@@ -729,29 +729,8 @@ footer li.signup-link a:hover {
 	color: #e9ecf2;
 }
 
-.fruitTreeGif {
-	height: 250px;
-}
-.hovrtekGif {
-	height: 250px;
-}
-.carrotGif {
-	height: 200px;
-	width: 270px;
-}
-
-.virtualCounselorGif {
-	height: 200px;
-	width: 200px;
-}
-
-.jsdrumzGif {
-		height: 125px;
-		width: 255px;
-}
-
-.ghostGif {
-		height: 125px;
+.projectImage {
+	height: 300px;
 }
 
 .fa-linkedin{
